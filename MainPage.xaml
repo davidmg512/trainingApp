@@ -1,0 +1,70 @@
+﻿<Page
+    x:Class="trainingApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:trainingApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <ComboBox x:Name="LanguageSelector" SelectionChanged="LanguageSelector_SelectionChanged">
+            <ComboBoxItem Content="English" Tag="en-US"/>
+            <ComboBoxItem Content="Español" Tag="es-ES"/>
+            <!-- Agrega más idiomas según sea necesario -->
+        </ComboBox>
+
+        <Pivot>
+            <PivotItem x:Uid="HeaderLunes">
+                <StackPanel>
+                    <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Lunes"/>
+                    <ItemsControl x:Name="EjerciciosLunes"/>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem x:Uid="HeaderMartes">
+                <StackPanel>
+                    <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Martes"/>
+                    <ItemsControl x:Name="EjerciciosMartes"/>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem x:Uid="HeaderMiercoles">
+                <StackPanel>
+                    <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Miercoles"/>
+                    <ItemsControl x:Name="EjerciciosMiercoles"/>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem x:Uid="HeaderJueves">
+                <StackPanel>
+                    <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Jueves"/>
+                    <ItemsControl x:Name="EjerciciosJueves"/>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem x:Uid="HeaderViernes">
+                <StackPanel>
+                    <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Viernes"/>
+                    <ItemsControl x:Name="EjerciciosViernes"/>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem x:Uid="HeaderSabado">
+                <StackPanel>
+                    <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Sabado"/>
+                    <ItemsControl x:Name="EjerciciosSabado"/>
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem x:Uid="HeaderDomingo">
+                <StackPanel>
+                    <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Domingo"/>
+                    <ItemsControl x:Name="EjerciciosDomingo"/>
+                </StackPanel>
+            </PivotItem>
+
+        </Pivot>
+    </StackPanel>
+    
+</Page>
