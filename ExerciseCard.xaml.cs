@@ -19,9 +19,40 @@ namespace trainingApp
 {
     public sealed partial class ExerciseCard : UserControl
     {
+        public event EventHandler Accepted;
+
         public ExerciseCard()
         {
             this.InitializeComponent();
+        }
+
+        public string Nombre
+        {
+            get => ExerciseName.Text;
+            set => ExerciseName.Text = value;
+        }
+
+        public string Descripcion
+        {
+            get => Description.Text;
+            set => Description.Text = value;
+        }
+
+        public int Repeticiones
+        {
+            get => int.TryParse(Repetitions.Text, out var reps) ? reps : 0;
+            set => Repetitions.Text = value.ToString();
+        }
+
+        public int Series
+        {
+            get => int.TryParse(Sets.Text, out var sets) ? sets : 0;
+            set => Sets.Text = value.ToString();
+        }
+
+        private void Accept_Click(object sender, RoutedEventArgs e)
+        {
+            Accepted?.Invoke(this, EventArgs.Empty);
         }
     }
 }

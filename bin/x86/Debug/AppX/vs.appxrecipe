@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6a1706fb-0099-408e-a0e1-3764c684f330</PackageIdentityName>
     <PackageIdentityPublisher>CN=davis</PackageIdentityPublisher>
-    <IntermediateOutputPath>G:\trainingApp\trainingApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>G:\trainingApp\TrainingApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>F:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>G:\trainingApp\trainingApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5A54658CDD6C7DDCC0A502678C6AA474368FDB4B5AB187ECB135DECC2BE0F50A</RegisteredManifestChecksum>
+    <LayoutDir>G:\trainingApp\TrainingApp\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FD2B0F4E257916DC912991ED80AC8EC07C6DC23D33203D8FA4DB054BDEA561EE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6a1706fb-0099-408e-a0e1-3764c684f330_1.0.0.0_x86__jkbg45q3etv2p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6a1706fb-0099-408e-a0e1-3764c684f330_jkbg45q3etv2p!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6a1706fb-0099-408e-a0e1-3764c684f330</RegisteredPackageID>
@@ -27,90 +27,114 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="G:\trainingApp\trainingApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="G:\trainingApp\TrainingApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-21T13:48:42.472</Modified>
+      <Modified>2024-05-21T16:00:14.304</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\trainingApp.exe">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\trainingApp.exe">
       <PackagePath>entrypoint\trainingApp.exe</PackagePath>
-      <Modified>2024-05-21T13:48:41.623</Modified>
+      <Modified>2024-05-21T16:00:13.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\microsoft.data.sqlite.core\8.0.5\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2024-04-17T18:38:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2022-06-10T20:24:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2023-08-23T18:41:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2023-08-23T18:38:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2023-08-23T18:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2023-08-23T18:38:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2018-09-18T19:38:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2024-05-21T11:47:38.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2024-05-21T11:36:27.870</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-05-21T11:36:27.872</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-05-21T11:36:27.872</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-05-21T11:36:27.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-05-21T11:36:27.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-05-21T11:36:27.874</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2024-05-21T11:36:27.874</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\trainingApp.xr.xml">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\trainingApp.xr.xml">
       <PackagePath>trainingApp.xr.xml</PackagePath>
-      <Modified>2024-05-21T12:43:42.597</Modified>
+      <Modified>2024-05-21T16:00:13.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-05-21T13:48:41.561</Modified>
+      <Modified>2024-05-21T16:00:13.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\ExerciseCard.xbf">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\ExerciseCard.xbf">
       <PackagePath>ExerciseCard.xbf</PackagePath>
-      <Modified>2024-05-21T13:48:41.561</Modified>
+      <Modified>2024-05-21T16:00:13.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-05-21T13:48:41.561</Modified>
+      <Modified>2024-05-21T16:00:13.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-21T12:43:42.945</Modified>
+      <Modified>2024-05-21T15:53:03.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\Core\trainingApp.exe">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\Core\trainingApp.exe">
       <PackagePath>trainingApp.exe</PackagePath>
-      <Modified>2024-05-21T13:48:42.463</Modified>
+      <Modified>2024-05-21T16:00:14.302</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,1 +1,1 @@
-G:\trainingApp\trainingApp\trainingApp.csproj;x86
+G:\trainingApp\TrainingApp\trainingApp.csproj;x86

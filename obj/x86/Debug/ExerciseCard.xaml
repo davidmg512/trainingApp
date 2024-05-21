@@ -7,14 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     d:DesignHeight="300"
-    d:DesignWidth="400">
+    d:DesignWidth="500">
 
-    <Grid Background="White" Padding="10" Margin="5">
+    <Grid Padding="10" Margin="5">
         <StackPanel>
-            <TextBox x:ConnectionId='2' Header="Nombre del Ejercicio" x:Name="ExerciseName" />
-            <TextBox x:ConnectionId='3' Header="Descripción" x:Name="Description" TextWrapping="Wrap" />
-            <TextBox x:ConnectionId='4' Header="Repeticiones" x:Name="Repetitions" />
-            <TextBox x:ConnectionId='5' Header="Series" x:Name="Sets" />
+            <TextBox x:ConnectionId='2' Header="Nombre del Ejercicio" x:Name="ExerciseName" x:FieldModifier="public" />
+            <TextBox x:ConnectionId='3' Header="Descripción" x:Name="Description" TextWrapping="Wrap" x:FieldModifier="public" />
+            <TextBox x:ConnectionId='4' Header="Repeticiones" x:Name="Repetitions" x:FieldModifier="public"/>
+            <TextBox x:ConnectionId='5' Header="Series" x:Name="Sets" x:FieldModifier="public"/>
+            <Button x:ConnectionId='6' Content="Aceptar"                      />
         </StackPanel>
     </Grid>
 </UserControl>

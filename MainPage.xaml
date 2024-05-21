@@ -18,7 +18,13 @@
             <PivotItem x:Uid="HeaderLunes">
                 <StackPanel>
                     <Button x:Uid="ButtonAddExercise" Click="AddExercise_Click" Tag="Lunes"/>
-                    <ItemsControl x:Name="EjerciciosLunes"/>
+                    <ItemsControl x:Name="EjerciciosLunes">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
                 </StackPanel>
             </PivotItem>
 

@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "G:\\trainingApp\\trainingApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\modelo\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:modelo\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\modelo\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:modelo\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\exercisecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:exercisecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|G:\\trainingApp\\trainingApp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|G:\\trainingApp\\trainingApp\\exercisecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:exercisecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\exercisecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:exercisecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|G:\\trainingApp\\trainingApp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\strings\\es-es\\resources.resw||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:strings\\es-es\\resources.resw||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\strings\\en-us\\resources.resw||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:strings\\en-us\\resources.resw||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|g:\\trainingapp\\trainingapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA77D88-FC96-480A-975A-0E2243DC63EE}|trainingApp.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +34,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:795697734:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:894625404:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Rutina.cs",
-              "DocumentMoniker": "G:\\trainingApp\\trainingApp\\Modelo\\Rutina.cs",
-              "RelativeDocumentMoniker": "Modelo\\Rutina.cs",
-              "ToolTip": "G:\\trainingApp\\trainingApp\\Modelo\\Rutina.cs",
-              "RelativeToolTip": "Modelo\\Rutina.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABnAAAA",
+              "DocumentIndex": 5,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "G:\\trainingApp\\trainingApp\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "G:\\trainingApp\\trainingApp\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:40:52.51Z",
+              "WhenOpened": "2024-05-21T15:48:45.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ExerciseCard.xaml.cs",
+              "DocumentMoniker": "G:\\trainingApp\\trainingApp\\ExerciseCard.xaml.cs",
+              "RelativeDocumentMoniker": "ExerciseCard.xaml.cs",
+              "ToolTip": "G:\\trainingApp\\trainingApp\\ExerciseCard.xaml.cs",
+              "RelativeToolTip": "ExerciseCard.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:20:33.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "G:\\trainingApp\\trainingApp\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "DatabaseManager.cs",
+              "ToolTip": "G:\\trainingApp\\trainingApp\\DatabaseManager.cs",
+              "RelativeToolTip": "DatabaseManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T14:28:50.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ExerciseCard.xaml",
               "DocumentMoniker": "G:\\trainingApp\\trainingApp\\ExerciseCard.xaml",
               "RelativeDocumentMoniker": "ExerciseCard.xaml",
@@ -67,57 +117,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ejercicio.cs",
-              "DocumentMoniker": "G:\\trainingApp\\trainingApp\\Modelo\\Ejercicio.cs",
-              "RelativeDocumentMoniker": "Modelo\\Ejercicio.cs",
-              "ToolTip": "G:\\trainingApp\\trainingApp\\Modelo\\Ejercicio.cs",
-              "RelativeToolTip": "Modelo\\Ejercicio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:36:48.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Resources.resw",
-              "DocumentMoniker": "G:\\trainingApp\\trainingApp\\Strings\\en-US\\Resources.resw",
-              "RelativeDocumentMoniker": "Strings\\en-US\\Resources.resw",
-              "ToolTip": "G:\\trainingApp\\trainingApp\\Strings\\en-US\\Resources.resw",
-              "RelativeToolTip": "Strings\\en-US\\Resources.resw",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-21T11:59:17.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Resources.resw",
-              "DocumentMoniker": "G:\\trainingApp\\trainingApp\\Strings\\es-ES\\Resources.resw",
-              "RelativeDocumentMoniker": "Strings\\es-ES\\Resources.resw",
-              "ToolTip": "G:\\trainingApp\\trainingApp\\Strings\\es-ES\\Resources.resw",
-              "RelativeToolTip": "Strings\\es-ES\\Resources.resw",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-21T11:57:09.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "G:\\trainingApp\\trainingApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "G:\\trainingApp\\trainingApp\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAowEkAAABBAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T11:51:06.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "G:\\trainingApp\\trainingApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",

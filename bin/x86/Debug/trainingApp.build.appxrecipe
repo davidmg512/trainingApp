@@ -10,79 +10,97 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6a1706fb-0099-408e-a0e1-3764c684f330</PackageIdentityName>
     <PackageIdentityPublisher>CN=davis</PackageIdentityPublisher>
-    <IntermediateOutputPath>G:\trainingApp\trainingApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>G:\trainingApp\TrainingApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>F:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>G:\trainingApp\trainingApp\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>G:\trainingApp\TrainingApp\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="G:\trainingApp\trainingApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="G:\trainingApp\TrainingApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\trainingApp.exe">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\trainingApp.exe">
       <PackagePath>entrypoint\trainingApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\microsoft.data.sqlite.core\8.0.5\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davis\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\trainingApp.xr.xml">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\trainingApp.xr.xml">
       <PackagePath>trainingApp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\ExerciseCard.xbf">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\ExerciseCard.xbf">
       <PackagePath>ExerciseCard.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\trainingApp\trainingApp\bin\x86\Debug\Core\trainingApp.exe">
+    <AppxPackagedFile Include="G:\trainingApp\TrainingApp\bin\x86\Debug\Core\trainingApp.exe">
       <PackagePath>trainingApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

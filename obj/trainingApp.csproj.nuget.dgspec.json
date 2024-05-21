@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\trainingApp\\trainingApp\\trainingApp.csproj": {}
+    "G:\\trainingApp\\TrainingApp\\trainingApp.csproj": {}
   },
   "projects": {
-    "G:\\trainingApp\\trainingApp\\trainingApp.csproj": {
+    "G:\\trainingApp\\TrainingApp\\trainingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\trainingApp\\trainingApp\\trainingApp.csproj",
+        "projectUniqueName": "G:\\trainingApp\\TrainingApp\\trainingApp.csproj",
         "projectName": "trainingApp",
-        "projectPath": "G:\\trainingApp\\trainingApp\\trainingApp.csproj",
+        "projectPath": "G:\\trainingApp\\TrainingApp\\trainingApp.csproj",
         "packagesPath": "C:\\Users\\davis\\.nuget\\packages\\",
-        "outputPath": "G:\\trainingApp\\trainingApp\\obj\\",
+        "outputPath": "G:\\trainingApp\\TrainingApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -24,14 +24,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "uap10.0.17763"
+          "uap10.0.19041"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.17763": {
+          "uap10.0.19041": {
             "projectReferences": {}
           }
         },
@@ -42,8 +42,12 @@
         }
       },
       "frameworks": {
-        "uap10.0.17763": {
+        "uap10.0.19041": {
           "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
